@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,862;0,700;0,900;1,100;1,300;1,400;1,862;1,700;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(pexels-daniel-absi-952670.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title {
+  color: #2EB3B1;
+}
+
+.subtitle {
+  color: #BFDF33;
+}
+.header {
+  background-color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+}
+
+.bottomside {
+  display: flex;
+}
+
+.sidetitle {
+  color: #C3F8FC;
+}
+
+.price {
+  color: #1f7a79;
+}
+
+#pricetag {
+  color: white;
+}
+
+.leftside {
+  background-color: #2EB3B1;
+}
+
+.text {
+  color: grey;
+}
+
+.lasttitle {
+  color: #C3F8FC;
+} 
+
+.signup {
+  background-color: #BFDF33;
+  color: white;
+  border-radius: 8px;
+  border: 0px none;
+  box-shadow: 0px 0px 15px grey;
+}
+
+.rightside {
+  background-color: #4ABEBB;
+}
+
+.rightside ul {
+
+  text-align: left;
+  color: #C3F8FC;
+  list-style: none;
+}
+
+@media screen and (max-width: 862px){
+
+  body {
+    padding: 30px 0;
+  }
+
+  main {
+    width: 90%;
+    height: 90%;
+  }
+
+  .header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .title {
+    margin-top: 30px;
+  }
+
+  .subtitle {
+    margin-top: 20px;
+    font-size:20px;
+  }
+
+  .text {
+    margin:20px 30px 0 30px;
+    text-align: justify;
+  }
+
+  .bottomside {
+    flex-direction: column;
+    justify-content: center;
+    align-items:stretch;
+  }
+
+  .leftside {
+    text-align: center;
+    padding: 20px;
+  }
+
+  #pricetag {
+    font-size: 40px;
+    display: block;
+    margin: 40px 40px 0px 40px;
+  }
+
+  .price {
+    margin-bottom: 30px;
+  }
+
+  .signup {
+    width: 90%;
+    height: 50px;
+    margin: 10px;
+    font-size: 20px;
+  }
+
+  .rightside {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    border-radius:0 0  10px 10px;
+  }
+
+  .rightside ul {
+    margin: 20px;
+  }
+}
+
+@media screen and (min-width: 862px) {
+
+  body {
+height: 100vh;
+  }
+
+  main {
+    width: 70%;
+  }
+
+  .bottomside {
+    justify-content: center;
+  }
+
+  .leftside {
+    flex-grow: 1;
+    border-radius: 0 0 0 10px;
+  }
+
+  .rightside{
+    flex-grow: 1;
+    border-radius: 0 0 10px 0;
+  }
+
+  .header {
+    padding: 40px;
+  }
+
+  .title {
+    margin-bottom: 20px;
+  }
+
+  .subtitle{
+    margin-bottom: 20px;
+  }
+
+  .text {
+    margin-bottom: 10px;
+  }
+
+  .leftside {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rightside {
+    padding: 30px;
+  }
+
+  .sidetitle {
+    margin-bottom: 20px;
+  }
+
+  #pricetag {
+    font-size: 50px;
+    margin-right: 10px;
+  }
+
+  .price {
+ margin-bottom: 20px;
+  }
+
+  .signup {
+    align-self: center;
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+  }
+
+  .rightside ul li {
+    margin: 8px 0;
+  }
+}
